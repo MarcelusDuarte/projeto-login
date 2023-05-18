@@ -31,6 +31,10 @@ Grandes telas: acima de 1200px
         float:right; /* O formulario já é uma div com display block. Passa para a direita */
         width: 70%;
     }
+
+    div.campo {
+        font-size: 1em;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -40,18 +44,31 @@ Grandes telas: acima de 1200px
     }
 
     section#login {
-        width: 950px;
+        width: 960px;
     }
 
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 40%;
         height: 100%;
     }
     
     section#login > div#formulario {
-        float: right;
+        float: left;
         width: 60%;
 
     }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
+    }
+
+    div.campo {
+        font-size: 1em;
+    }
 }
+
